@@ -1,0 +1,153 @@
+    
+.col1{width: 8.33%; }
+.col2{width: 16.66%; }
+.col3{width: 25%; }
+.col4{width: 33.33%; }
+.col5{width: 41.66%;}
+.col6{width: 50%; }
+.col7{width: 58.33%; }
+.col8{width: 66.66%; }
+.col9{width: 75%; }
+.col10{width: 83.33%; }
+.col11{width: 91.66%; }
+.col12{width: 100%; }
+
+@media all and (max-width:666px) {
+.col1{width:  100%; }
+.col2{width:  100%; }
+.col3{width:  100%; }
+.col4{width:  100%; }
+.col5{width:  100%;}
+.col6{width:  100%; }
+.col7{width:  100%; }
+.col8{width:  100%; }
+.col9{width:  100%; }
+.col10{width: 100%; }
+.col11{width: 100%; }
+.col12{width: 100%; }
+
+}
+/* *{
+    background-color: antiquewhite;
+} */
+#header{
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    /* margin: 0px; */
+    /* font-size: x-small; */
+    background-color: #1C1E32;
+    height: 10vh;   
+}
+#num{
+    font-size:1vw;
+}
+#mail{
+    font-size:1vw; 
+}
+#MAIL{
+    text-decoration: none;
+    color: aliceblue;
+}
+.social{ 
+    text-align: end;    
+}
+img{
+    margin-right: 1%;
+    width: 4%;
+}
+
+.NAME{
+    /* border: 2px honeydew; */
+    border-radius: 4px;
+    width: 83.33%;
+    background-color: #2B2E4A;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 8.33%;
+    right: 8.33%;
+    bottom: 20px;
+    justify-content: space-between;
+}
+
+#name{
+    
+    margin-left: 5% ;
+    color:#FEC260;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+}
+
+.anchor{
+    margin-right: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size:x-large;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;   
+}
+.anchor:hover{
+    color: darkorange;
+}
+#h{
+    color: darkorange;
+}
+#cars{
+    font-size: large;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.bar{
+    display: flex;
+    /* margin-left: 9%;
+    margin-right: 10%; */
+    justify-content: space-evenly; 
+}
+.n-bar{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;  
+    padding: 8px;
+    
+}
+.pick{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;  
+    padding: 8px;
+}
+#search{
+    border-radius: 5px;
+    background-color: #3e8e41;
+    width: 80px;
+}
+#search:active {
+    background-color: #3e8e41;
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(2px);
+  }
+.image{
+    
+    display: flex;
+    justify-content: center;
+}
+#car{
+    width:100%;
+}
+.s-l{
+    display: flex;
+    /* top: 10px; */
+    justify-content: space-between;   
+}
+.service{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
